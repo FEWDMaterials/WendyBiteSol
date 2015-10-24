@@ -1,1 +1,79 @@
 /* CURRENTLY IN: styles/main.css */
+
+body {
+	border: 5px solid #eee;
+	
+	background-color: #666;
+
+	margin: 25px;
+/*	padding: 35px;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+
+	padding: 50px 40px;*/
+
+	padding: 50px 40px 50px 50px;
+}
+
+/* styles for .nav block */
+
+.nav { /* this is a  block */
+	padding: 30px 0;
+	border-bottom: 2px solid #eee;
+	text-align: center;
+}
+
+.nav--bottomborder {
+	border-bottom: none;
+	border-top: 2px solid #eee;
+}
+
+.nav__link { /* this is an element of the nav block */
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(50,255,150);
+	padding: 0 20px;
+	border-right: 1px solid #eee;
+	display: inline-block;
+    line-height: 15px;
+}
+
+.nav__link--last {
+	border-right: none;
+}
+
+.nav__link--active {
+	color: white;
+	text-decoration: none;
+	font-weight: 800;
+	pointer-events: none;
+}
+
+/* styles for .content-bookend */
+
+.content-bookend {
+	padding-top: 20px;
+}
+
+.content-bookend__title {
+	color: white;
+	font-size: 56px;
+	font-style: italic;
+	text-align: center;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
